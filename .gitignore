@@ -1,0 +1,7 @@
+# Ignorar datos crudos e intermedios
+data/raw/*
+data/interim/*
+
+# Mantener las carpetas (opcional, pero recomendable)
+!data/raw/.gitkeep
+!data/interim/.gitkeep
